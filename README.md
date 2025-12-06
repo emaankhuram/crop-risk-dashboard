@@ -163,21 +163,5 @@ pip install --upgrade streamlit
 streamlit run app.py --server.port 8502
 ```
 
-## Technical Requirements
-
-- **RAM**: Minimum 4GB (8GB recommended)
-- **Storage**: ~500MB for data and models
-- **Internet**: Required only for initial setup
-
-## Performance Tips
-
-- Dashboard loads data once and caches it
-- First page load may take 5-10 seconds
-- Subsequent interactions are instant
-- Close unused browser tabs for better performance
-
-
-
-
 **Last Updated**: December 2025
-**Version**: 1.0.0
+

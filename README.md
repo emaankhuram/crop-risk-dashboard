@@ -1,4 +1,4 @@
-# 🌽 Crop Yield Volatility Risk Assessment Dashboard
+# Crop Yield Volatility Risk Assessment Dashboard
 
 ## Project Overview
 
@@ -61,32 +61,32 @@ The dashboard will automatically open in your default web browser at `http://loc
 
 ## Dashboard Features
 
-### 🗺️ Risk Map
+### Risk Map
 Interactive geographic visualization showing risk levels across US counties
 - Filter by crop type, state, and risk threshold
 - Color-coded risk categories
 - Detailed county information on hover/click
 
-### 🔍 County Explorer
+### County Explorer
 Deep dive into specific counties
 - Historical yield trends
 - Climate change indicators
 - What's driving volatility in this location
 
-### 🎛️ What-If Simulator
+### What-If Simulator
 Interactive scenario modeling
 - Adjust climate parameters with sliders
 - See real-time predictions
 - Understand risk factors
 
-### 📊 Analytics Dashboard
+### Analytics Dashboard
 Comprehensive analysis and insights
 - Feature importance rankings
 - Correlation analysis
 - Geographic patterns
 - Temporal trends
 
-### 🤖 Model Performance
+### Model Performance
 Rigorous model evaluation
 - Multiple model comparison
 - Performance metrics
@@ -99,11 +99,11 @@ Rigorous model evaluation
 crop_risk_dashboard/
 ├── app.py                          # Main application
 ├── pages/
-│   ├── 1_🗺️_Risk_Map.py
-│   ├── 2_🔍_County_Explorer.py
-│   ├── 3_🎛️_What_If_Simulator.py
-│   ├── 4_📊_Analytics.py
-│   └── 5_🤖_Model_Performance.py
+│   ├── 1_Risk_Map.py
+│   ├── 2_County_Explorer.py
+│   ├── 3_What_If_Simulator.py
+│   ├── 4_Analytics.py
+│   └── 5_Model_Performance.py
 ├── data/                           # Data files (CSV)
 ├── models/                         # Trained ML models
 ├── requirements.txt
@@ -176,34 +176,8 @@ streamlit run app.py --server.port 8502
 - Subsequent interactions are instant
 - Close unused browser tabs for better performance
 
-## Citation
 
-If you use this dashboard or methodology in your research, please cite:
 
-```
-Crop Yield Volatility Risk Assessment Dashboard
-CS-245 Machine Learning Course Project, Fall 2025
-National University of Sciences and Technology (NUST)
-```
-
-## License
-
-This project is developed for educational purposes as part of the CS-245 Machine Learning course.
-
-## Contact
-
-For questions or issues:
-- Open an issue on GitHub
-- Contact course instructor: Mr. Usama Athar
-
-## Acknowledgments
-
-- NASA POWER for climate data
-- Google Earth Engine for satellite data
-- USDA NASS for agricultural statistics
-- Streamlit community for visualization tools
-
----
 
 **Last Updated**: December 2025
 **Version**: 1.0.0
